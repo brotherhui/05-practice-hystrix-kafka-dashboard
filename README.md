@@ -7,6 +7,6 @@ spring cloud hystrix turbine dashboard kafka
 - this is used to collect all the metrics from kafka. Kafka binder should be used or rabbmit binder
 # Step3: enable microservice hystrix collector
 - add spring-cloud-netflix-hystrix-stream, spring-cloud-starter-stream-*, see hello1 and hello2
-- this will automatically send the informations into turbine server.
+- this will automatically send the informations into turbine server which is collected by kafka.
 
 # Step4: copy turbine server's url into hystrix dashboard so that we can see the result
