@@ -13,7 +13,7 @@ spring cloud hystrix turbine dashboard kafka
 - Object: To see if single hystrix is working.
 - 1. open http://localhost:8022 you can see hystrix dashboard there
 - 2. put http://localhost:9090/hystrix.stream into the input field and click monitor
-![avatar](05-practice-hystrix-turbine-kafka-dashboard/1-single-input.png)
+![avatar](1-single-input.png)
 - 3. click again and again http://localhost:9090/hello1(
 - 4. see result from dashboard. you can see the single result of a micro service.
 
