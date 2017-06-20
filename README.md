@@ -15,7 +15,7 @@ workable version of spring cloud hystrix turbine stream dashboard kafka
 - 1. open http://localhost:8022 you can see hystrix dashboard there
 - 2. put http://localhost:9090/hystrix.stream into the input field and click monitor
 ![avatar](1-single-input.png)
-- 3. click again and again http://localhost:9090/hello1(
+- 3. click again and again http://localhost:9090/hello1
 - 4. see result from dashboard. you can see the single result of a micro service.
 ![avatar](2-single-result.png)
 
