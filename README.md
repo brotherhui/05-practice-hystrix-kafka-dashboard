@@ -8,7 +8,7 @@ workable version of spring cloud hystrix turbine stream dashboard kafka
 # Step3: enable microservice hystrix collector
 - add spring-cloud-netflix-hystrix-stream, spring-cloud-starter-stream-*, see hello1 and hello2
 - this will automatically send the informations into turbine server which is collected by kafka.
-# Step3-NOTICE: enable eurekaClient is very importand for hystrix-stream. it must use this client. But you don't need to have a eureka server at the time. So don't worry about the exception of register eureka server.
+# Step3-NOTICE: enable eurekaClient is very importand for hystrix-stream. it must use this client. But you don't need to have a eureka server at the same time. So don't worry about the exception of register eureka server.
 
 # Test1:
 - Object: To see if single hystrix is working.
