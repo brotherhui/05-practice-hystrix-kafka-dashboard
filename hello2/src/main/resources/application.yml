@@ -1,0 +1,20 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: hello2
+  cloud:
+    stream:
+# -- Please refer to https://github.com/spring-cloud/spring-cloud-stream-binder-kafka/blob/master/spring-cloud-stream-binder-kafka-docs/src/main/asciidoc/overview.adoc#binding-properties
+      kafka:
+        binder:
+          brokers: localhost:9092
+          zkNodes: localhost:2181
+          
+# For demo only allow more hystrix connections
+hystrix:
+  stream:
+    maxConcurrentConnections: 20
+    bus:
+      enabled: true

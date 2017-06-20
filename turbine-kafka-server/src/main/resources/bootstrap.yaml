@@ -1,0 +1,16 @@
+server:
+  port: 8989
+
+management:
+  port: 9222
+
+spring:
+  application:
+    name: turbine-kafka-server
+  cloud:
+    stream:
+# -- Please refer to https://github.com/spring-cloud/spring-cloud-stream-binder-kafka/blob/master/spring-cloud-stream-binder-kafka-docs/src/main/asciidoc/overview.adoc#binding-properties
+      kafka:
+        binder:
+          brokers: localhost:9092
+          zkNodes: localhost:2181
